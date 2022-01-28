@@ -17,6 +17,10 @@ The twist in this design is the inclusion of a pair of joysticks. These are [Frs
 ### Proximity
 The keyboard uses a proximity switch to detect when a hand is over the joystick, and uses this to switch the mouse buttons on. This is using an [APDS-9660](https://www.sparkfun.com/products/12787) sensor & breakout board which is glued to the underside of the case.
 
+Here it is working:
+
+![proximity_demo.gif](proximity_demo.gif)
+
 ### Controller
 Originally this was designed to work with two [Pro Micro](https://www.sparkfun.com/products/12640) controllers, but these didn't really have enough flash for the QMK features I wanted.
 

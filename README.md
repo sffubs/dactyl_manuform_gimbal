@@ -32,6 +32,11 @@ Honestly, they were still quite painful to use. The holes in the PCB had to be f
 
 However, once the whole lot was wired up, they do look quite tidy. The PCBs are not secured to the case, it seems to be enough just to press-fit them onto the back of the keys.
 
+### Split communication
+The two halves communicate through a TRRS connector. However, this just provides serial communications and a common ground wire - I left the 5v wire unconnected. Both of the halves need to be connected to the host computer over USB. This is for two reasons:
+- Each half can send its own mouse events, which simplifies things
+- I think the power draw for the whole keyboard might exceed 500ma - certainly I had some problems trying to power the whole thing from a single USB port
+
 ## Daughterboard PCB
 There are a lot of connections in this keyboard: the haptic breakout board, proximity board, OLED, LED, gimbals, TRRS connection. Wiring all of these directly to the controller would be difficult.
 

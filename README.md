@@ -1,6 +1,12 @@
 # Dactyl-Manuform-Gimbal keyboard
 ![keyboard](keyboard.jpg)
 
+Why? I wanted to build something a bit different, something that I'd not seen before. I wondered what a keyboard would look like if I merged it with an RC controller, and tried using the RC gimbals as a mouse.
+
+The result is quite fun. It's fairly space-efficient, and allows me to use the mouse with either hand. It has proximity sensors to detect when your hand is on the joystick, and turns some of the keys into mouse buttons. Haptic feedback helps to tell when you have switched layers, or long-pressed a key.
+
+You might have noticed it has more keys on the right than the left. This is because I wanted the option to use it with [Plover](http://www.openstenoproject.org/plover/), which for a standard layout requires a minimum of 6 columns on the right, and 5 columns on the left. (I've not actually tested it with Plover, having built a [different keyboard](https://www.thingiverse.com/thing:5021950) for that in the meantime).
+
 ## Components
 ### Keys
 I picked gateron red switches, sold to me by [Mechboards](mechboards.co.uk).

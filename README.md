@@ -9,7 +9,7 @@ You might have noticed it has more keys on the right than the left. This is beca
 
 ## Components
 ### Keys
-I picked gateron red switches, sold to me by [Mechboards](mechboards.co.uk).
+I picked gateron red switches and DSA keycaps, sold to me by [Mechboards](mechboards.co.uk).
 
 ### Gimbals
 The twist in this design is the inclusion of a pair of joysticks. These are [Frsky M9](Frsky M9) RC gimbals.

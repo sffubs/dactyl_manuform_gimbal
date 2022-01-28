@@ -44,6 +44,15 @@ Per-key RGB LEDs are the cornerstone of a fancy mechanical keyboard! I had to ha
 
 Honestly, they were still quite painful to use. The holes in the PCB had to be filed out before the LEDs would fit in them, and the LED casings would melt if the soldering iron was on them for more than half a second. I had a couple of PCBs that were faulty also.
 
+Here was my method for soldering them:
+- Sit the LED in the hole
+- Spread some flux over the back of the LED
+- For each terminal
+	- Put some solder on the PCB pad
+	- Dag it onto the LED. Hopefully you will get a little solder bridge form
+- Try once for each pad, and if it didn't work, leave it for a couple of minutes to cool before you try again.
+- Repeat until all connections are made, then test the PCB.
+
 However, once the whole lot was wired up, they do look quite tidy. The PCBs are not secured to the case, it seems to be enough just to press-fit them onto the back of the keys.
 
 ### Split communication

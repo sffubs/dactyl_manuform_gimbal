@@ -7,6 +7,10 @@ The result is quite fun. It's fairly space-efficient, and allows me to use the m
 
 You might have noticed it has more keys on the right than the left. This is because I wanted the option to use it with [Plover](http://www.openstenoproject.org/plover/), which for a standard layout requires a minimum of 6 columns on the right, and 5 columns on the left. (I've not actually tested it with Plover, having built a [different keyboard](https://www.thingiverse.com/thing:5021950) for that in the meantime).
 
+Fair warning: there is quite a lot of soldering involved if you want to make one:
+
+![underside](underside.jpg)
+
 ## Components
 ### Keys
 I picked gateron red switches and DSA keycaps, sold to me by [Mechboards](mechboards.co.uk).

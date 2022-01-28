@@ -1,9 +1,9 @@
 # Dactyl-Manuform-Gimbal keyboard
-![[keyboard.jpg]]
+![keyboard](keyboard.jpg)
 
 ## Components
 ### Gimbals
-The twist in this design is the inclusion of a pair of joysticks. These are [[Frsky M9]] RC gimbals.
+The twist in this design is the inclusion of a pair of joysticks. These are [Frsky M9](Frsky M9) RC gimbals.
 
 ### Proximity
 The keyboard uses a proximity switch to detect when a hand is over the joystick, and uses this to switch the mouse buttons on. This is using an [APDS-9660](https://www.sparkfun.com/products/12787) sensor & breakout board which is glued to the underside of the case.
@@ -26,14 +26,14 @@ I picked a linear resonant actuator to use with it, the Jinlong G0832012. Not fo
 There are a lot of connections in this keyboard: the haptic breakout board, proximity board, OLED, LED, gimbals, TRRS connection. Wiring all of these directly to the controller would be difficult.
 
 To simplify things, I designed a PCB to hold all of these connections. It also contains a 3.3v regulator to drive the ADPS9660 board, from back when the whole system was designed to run on 5v.
-![[pcb.jpg]]
+![PCB](pcb.jpg)
 
 Originally the SCL, SSA, and LED connections on the left were meant to go straight to pins on the pro micro controller. However, when using this with a blackpil controller, you will need to use a [level shifter](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide/all) to convert between 3.3v and 5v.
 
 Here are the sources:
-- [[dactyl-manuform-gimbal.kicad_pcb]]
-- [[dactyl-manuform-gimbal.pro]]
-- [[dactyl-manuform-gimbal.sch]]
+- [dactyl-manuform-gimbal.kicad_pcb](dactyl-manuform-gimbal.kicad_pcb)
+- [dactyl-manuform-gimbal.pro](dactyl-manuform-gimbal.pro)
+- [dactyl-manuform-gimbal.sch](dactyl-manuform-gimbal.sch)
 
 I had mine manufactured by [Aisler](https://aisler.net/).
 
@@ -50,17 +50,17 @@ The geometry was generated using a fork of Joshua Shreve's dactyl-keyboard gener
 
 https://github.com/sffubs/dactyl-keyboard/tree/gimbal
 
-![[case.jpg]]
+![case.jpg](case.jpg)
 
 The final files I used are here:
-- [[DM_left_final.step]]
-- [[DM_left_final.stl]]
-- [[DM_left_plate_final.stp]]
-- [[DM_left_plate_final.stl]]
-- [[DM_right_final.step]]
-- [[DM_right_final.stl]]
-- [[DM_right_plate_final.step]]
-- [[DM_right_plate_final.stl]]
+- [DM_left_final.step](DM_left_final.step)
+- [DM_left_final.stl](DM_left_final.stl)
+- [DM_left_plate_final.stp](DM_left_plate_final.stp)
+- [DM_left_plate_final.stl](DM_left_plate_final.stl)
+- [DM_right_final.step](DM_right_final.step)
+- [DM_right_final.stl](DM_right_final.stl])
+- [DM_right_plate_final.step](DM_right_plate_final.step)
+- [DM_right_plate_final.stl](DM_right_plate_final.stl)
 ## Printing
 I printed this on my Ender 3, using Prusament Galaxy Black PLA filament, with a 0.4mm nozzle at 0.2mm resolution. I used tree-style supports, which much reduced the time and plastic required.
 

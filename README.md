@@ -2,6 +2,9 @@
 ![keyboard](keyboard.jpg)
 
 ## Components
+### Keys
+I picked gateron red switches, sold to me by [Mechboards](mechboards.co.uk).
+
 ### Gimbals
 The twist in this design is the inclusion of a pair of joysticks. These are [Frsky M9](Frsky M9) RC gimbals.
 
@@ -22,7 +25,14 @@ I wanted to try getting some haptic feedback from the keyboard, for example when
 
 I picked a linear resonant actuator to use with it, the Jinlong G0832012. Not for any highly specific reason; it was easily available and looked like roughly the right thing.
 
-## PCB
+### LEDs & per-key PCBs
+Per-key RGB LEDs are the cornerstone of a fancy mechanical keyboard! I had to have them. To try and keep things tidy, I used [Amoeba Royale](https://github.com/mtl/keyboard-pcbs/tree/master/amoeba-royale) per-key PCBs, printed for me by [Aisler](https://aisler.net). I got a bunch of SK6812 mini 3535 LEDs to to go with them, along with kailh hotswap sockets, and some small signal diodes.
+
+Honestly, they were still quite painful to use. The holes in the PCB had to be filed out before the LEDs would fit in them, and the LED casings would melt if the soldering iron was on them for more than half a second. I had a couple of PCBs that were faulty also.
+
+However, once the whole lot was wired up, they do look quite tidy. The PCBs are not secured to the case, it seems to be enough just to press-fit them onto the back of the keys.
+
+## Daughterboard PCB
 There are a lot of connections in this keyboard: the haptic breakout board, proximity board, OLED, LED, gimbals, TRRS connection. Wiring all of these directly to the controller would be difficult.
 
 To simplify things, I designed a PCB to hold all of these connections. It also contains a 3.3v regulator to drive the ADPS9660 board, from back when the whole system was designed to run on 5v.

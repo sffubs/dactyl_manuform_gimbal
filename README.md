@@ -26,6 +26,12 @@ In the end, I gave up, and swapped to a pair of [STM32F401CCU6 "Black pill"](htt
 
 In any case, the swap from the original 5v board to a 3.3v one meant that a level-shifter had to be added between the board and the I2C and LED lines on the breakout board.
 
+Here's how the blackpill controller is wired:
+![controller_pinout](controller_pinout.jpg)
+B10 should be wired to 3V3 on the left-hand half, and to GND on the right-hand half.
+
+Remember that TX1 on the left-hand half needs to be connected to RX1 on the right-hand half, and vice-versa.
+
 ### Haptic
 I wanted to try getting some haptic feedback from the keyboard, for example when using mod-taps, or when switching to/from mouse mode. QMK has support for the [DRV2605L](https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout) driver built in, so I used this.
 

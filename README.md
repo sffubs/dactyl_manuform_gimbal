@@ -16,7 +16,7 @@ Fair warning: there is quite a lot of soldering involved if you want to make one
 I picked gateron red switches and DSA keycaps, sold to me by [Mechboards](mechboards.co.uk).
 
 ### Gimbals
-The twist in this design is the inclusion of a pair of joysticks. These are [Frsky M9](FrSky_M9.md) RC gimbals.
+The twist in this design is the inclusion of a pair of joysticks. These are RC gimbals - see [here](FrSky_M9.md) for some details of how they are wired up.
 
 ### Proximity
 The keyboard uses a proximity switch to detect when a hand is over the joystick, and uses this to switch the mouse buttons on. This is using an [APDS-9660](https://www.sparkfun.com/products/12787) sensor & breakout board which is glued to the underside of the case.

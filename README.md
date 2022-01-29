@@ -83,7 +83,7 @@ There are a lot of connections in this keyboard: the haptic breakout board, prox
 To simplify things, I designed a PCB to hold all of these connections. It also contains a 3.3v regulator to drive the ADPS9660 board, from back when the whole system was designed to run on 5v.
 ![PCB](pcb.jpg)
 
-Originally the SCL, SSA, and LED connections on the left were meant to go straight to pins on the pro micro controller. However, when using this with a blackpil controller, you will need to use a [level shifter](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide/all) to convert between 3.3v and 5v.
+Originally the SCL, SDA, and LED connections on the left were meant to go straight to pins on the pro micro controller. However, when using this with a blackpil controller, you will need to use a [level shifter](https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide/all) to convert between 3.3v and 5v.
 
 Here are the sources:
 - [dactyl-manuform-gimbal.kicad_pcb](dactyl-manuform-gimbal.kicad_pcb)

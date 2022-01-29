@@ -74,6 +74,9 @@ The two halves communicate through a TRRS connector. However, this just provides
 - Each half can send its own mouse events, which simplifies things
 - I think the power draw for the whole keyboard might exceed 500ma - certainly I had some problems trying to power the whole thing from a single USB port
 
+### OLED
+I bought a pair of "OLED screens" from Mechboards, because of course I wanted my keyboard to have a screen! Actually this turned out to be a really helpful debugging tool, and I ended up printing a lot of diagnostic information to the OLED screen. I suspect they are SSD1306 128x32 screens, since they worked in QMK without any modifications.
+
 ## Daughterboard PCB
 There are a lot of connections in this keyboard: the haptic breakout board, proximity board, OLED, LED, gimbals, TRRS connection. Wiring all of these directly to the controller would be difficult.
 
@@ -96,6 +99,8 @@ You will also need these parts to make up the board:
 - Q1 & Q2: BS170 TO-92
 - R1: 470R resistor
 - J5 & J6: JST_PH_B3B header
+- AMS1117 3.3v voltage regulator
+- Adafruit DRV2506L haptic driver
 
 ## Geometry
 The geometry was generated using a fork of Joshua Shreve's dactyl-keyboard generator:

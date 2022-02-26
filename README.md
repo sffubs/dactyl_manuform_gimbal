@@ -109,6 +109,14 @@ https://github.com/sffubs/dactyl-keyboard/tree/gimbal
 
 ![case.jpg](case.jpg)
 
+I custom-designed some controller trays to fit:
+
+https://cad.onshape.com/documents/eb5f1e8bc035539a3b22c66d/w/b0de5830ef436e9c93686258/e/9e4ae3f698d1b142e7089f96?renderMode=0&uiState=621a5917d956b2473540e545
+
+This for the right-hand keyboard - you will need to print the mirror image for the left-hand keyboard.
+
+![Controller tray](Controller_tray.png)
+
 The final files I used are here:
 - [DM_left_final.step](DM_left_final.step)
 - [DM_left_final.stl](DM_left_final.stl)
@@ -118,6 +126,8 @@ The final files I used are here:
 - [DM_right_final.stl](DM_right_final.stl])
 - [DM_right_plate_final.step](DM_right_plate_final.step)
 - [DM_right_plate_final.stl](DM_right_plate_final.stl)
+- [Controller_tray.stl](Controller_tray.stl)
+
 ## Printing
 I printed this on my Ender 3, using Prusament Galaxy Black PLA filament, with a 0.4mm nozzle at 0.2mm resolution. I used tree-style supports, which much reduced the time and plastic required.
 

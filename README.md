@@ -127,6 +127,7 @@ The final files I used are here:
 - [DM_right_plate_final.step](DM_right_plate_final.step)
 - [DM_right_plate_final.stl](DM_right_plate_final.stl)
 - [Controller_tray.stl](Controller_tray.stl)
+- [DM_OLED_clip.stl](DM_OLED_clip.stl)
 
 ## Printing
 I printed this on my Ender 3, using Prusament Galaxy Black PLA filament, with a 0.4mm nozzle at 0.2mm resolution. I used tree-style supports, which much reduced the time and plastic required.
